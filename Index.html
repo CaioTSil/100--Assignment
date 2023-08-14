@@ -10,17 +10,54 @@
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean fringilla leo nulla, id consequat urna accumsan non. In hac habitasse platea dictumst. Curabitur at sapien sit amet dui semper hendrerit. Nunc blandit enim libero. Pellentesque sapien lorem, feugiat eu dapibus eget, porttitor vitae nisi. Suspendisse venenatis velit at felis mattis egestas. Nullam nunc leo, aliquam vitae leo sed, sollicitudin molestie orci. Aliquam malesuada condimentum elit eu imperdiet. Duis neque metus, laoreet sed est quis, tristique laoreet tellus. Vivamus suscipit purus sed mauris fringilla, et venenatis est aliquam.
 
-<br><br><br><center>
-<table width="85%" height="20%"><tr>
-    <td width="20%"><img src="./Recources/Kiwi.jpg"
-        alt="A Kiwi Bird" height="150px"></td>
-    <td width="10%"></td>
-    <td width="40%"><img src="./Recources/Maui_Dolphin.jpg"
-        alt="A Maui Dolphin" height="150px"></td>
-    <td width="10%"></td>
-    <td width="20%"><img src="./Recources/Kauri_Tree.jpg"
-        alt="A Kauri Tree" height="150px"></td>
-</tr></table></center><br>
+<br><br><br>        <section>
+    <!-- Images used to open the lightbox -->
+    <div class="row">
+      <div class="column">
+        <img class="test" src="./Recources/Kiwi.jpg" height="150px" alt="A Kiwi Bird"
+          onclick="openModal();currentSlide(1)" class="hover-shadow">
+      </div>
+      <div class="column">
+        <img src="./Recources/Maui_Dolphin.jpg" height="150px" alt="A Maui Dolphin"
+          onclick="openModal();currentSlide(2)" class="hover-shadow">
+      </div>
+      <div class="column">
+        <img src="./Recources/Kauri_Tree.jpg" height="150px" alt="A Kauri Tree"
+          onclick="openModal();currentSlide(3)" class="hover-shadow">
+      </div>
+    </div>
+
+    <!-- The Modal/Lightbox -->
+    <div id="myModal" class="modal">
+      <span class="close cursor" onclick="closeModal()">&times;</span>
+      <div class="modal-content">
+        <div class="slideshow-container">
+          <div class="mySlides">
+            <div class="numbertext">1 / 3</div>
+            <img src="./Recources/Kiwi.jpg" style="height:450px">
+          </div>
+
+          <div class="mySlides">
+            <div class="numbertext">2 / 3</div>
+            <img src="./Recources/Maui_Dolphin.jpg" style="height:450px">
+          </div>
+
+          <div class="mySlides">
+            <div class="numbertext">3 / 3</div>
+            <img src="./Recources/Kauri_Tree.jpg" style="height:450px">
+          </div>
+
+          <!-- Next/previous controls -->
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        </div>
+      </div>
+    </div>
+
+    <script src="./Recources/javacode.js"></script>
+</td>
+</section><br>
 </td><td width="15%" class="menu">
     <ul><h2>Navigation</h2>
         <li><a href="Index.html">Main Page</a></li>
