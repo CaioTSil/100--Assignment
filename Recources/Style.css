@@ -1,0 +1,52 @@
+html {
+    font-family: Arial, sans-serif;
+}
+header {
+    padding: 0.02px;
+    background-color: rgb(15, 120, 180);
+    text-align: center;
+    color: rgb(188, 241, 199);
+    font-weight: 900;
+    font-size: 2em;
+}
+footer {
+    padding: 5px;
+    background-color: rgb(15, 120, 180); 
+    color: rgb(188, 241, 199);
+}
+a.source:link{
+color: rgb(240, 252, 39);
+}
+a.source:visited{
+    color: rgb(170, 180, 15);
+}
+h3 {
+    color: rgb(188, 241, 199);
+}
+td {
+    vertical-align: top;
+    text-align: center;
+}
+ul {
+    text-align: left;
+}
+li {
+    color: rgb(15, 120, 180);
+}
+h2 {
+   color: rgb(15, 120, 180); 
+}
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+}
+img {
+    border: 5px solid  rgb(15, 120, 180);
+    vertical-align: middle;
+}
+.menu {
+    background-color: rgb(190, 190, 190);
+
+}
