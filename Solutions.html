@@ -1,19 +1,66 @@
-<!DOCTYPE html><html><head>
-<title>100% NZ | Solutions</title>
-<link rel="stylesheet" href="Recources/Style.css">
-</head><body><header>
-<h1>100% NZ</h1>
-</header>
-<table width="100%"><tr>
-    <td width="85%">
-    
-</td><td width="15%" class="menu">
-    <ul><h2>Navigation</h2>
-        <li><a href="Index.html">Main Page</a></li>
-        <li><a href="Issues.html">Issues</a></li>
-        <li><a href="Solutions.html">Solutions</a></li>
-    </ul></td></tr></table><footer>
-<h3>Site by Caio Torres Silveira</h3>
-<a class="source" href="Recources/Sources.html"
-target="_blank" rel="noopener noreferrer">Sources here</a>
-</footer></body></html><!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>100% NZ | Solutions</title>
+        <link rel="stylesheet" href="Recources/Style.css">
+    </head>
+
+    <body>
+        <header>
+            <h1>100% NZ</h1>
+        </header>
+        <table width="100%">
+            <tr>
+                <td width="85%">
+                    <br>
+                    <h2>Solutions</h2>
+                    <div class="info">
+                        There are many issues that cause species to become endangered, but there are also many
+                        solutions to those problems, for example if predators become a problem one could create
+                        sanctuaries for the animals that are endangered (see image below) or if polution becomes 
+                        an issue one could enforce laws to help reduce said polution. This allows these species to
+                        not go extinct, maintaining their presence for future generations.
+                    </div><br>
+                    <section>
+                        <!-- Images used to open the lightbox -->
+                        <div class="row">
+                            <div class="column">
+                                <img src="./Recources/Kapiti-Island.webp" height="200px" alt="Kapiti Island"
+                                    onclick="openModal();currentSlide(1)" class="hover-shadow">
+                            </div>
+                        </div>
+
+                        <!-- The Modal/Lightbox -->
+                        <div id="myModal" class="modal">
+                            <span class="close cursor" onclick="closeModal()">&times;</span>
+                            <div class="modal-content">
+                                <div class="slideshow-container">
+                                    <div class="mySlides">
+                                        <img src="./Recources/Kapiti-Island.webp" style="height:450px">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <script src="./Recources/javacode.js"></script>
+                </td>
+                <td width="15%" class="menu">
+                    <img src="./Recources/100%_Logo.png" alt="stylized 100%" height="50px" class="logo">
+                    <ul>
+                        <h2>Navigation</h2>
+                        <li><a href="Index.html">Main Page</a></li>
+                        <li><a href="Issues.html">Issues</a></li>
+                        <li><a href="Solutions.html">Solutions</a></li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+        <footer>
+            <h3>Site by Caio Torres Silveira</h3>
+            <a class="source" href="Recources/Sources.html" target="_blank" rel="noopener noreferrer">Sources here</a>
+        </footer>
+    </body>
+
+</html>
+<!DOCTYPE html>
