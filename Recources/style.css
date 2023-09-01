@@ -67,6 +67,15 @@ img {
     text-align: justify;
 }
 
+.logo {
+    border: 10px solid rgb(170, 170, 170);
+    margin-bottom: 0%;
+}
+
+.source {
+    color: rgb(0, 0,);
+}
+
 .row>.column {
     padding: 8px;
 }
